@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kalam', cursive;
+}
+
+.maxw1 {
+    max-width: 80vw;
+}
+
+.maxw2 {
+    max-width: 60vw;
+}
+
+.marg {
+    margin: auto;
+}
+
+.marg2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.marg-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* .margarticle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+} */
+
+.margboth {
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 5px;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.form-input {
+    padding: 5px 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 10px 0px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

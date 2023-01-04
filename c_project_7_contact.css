@@ -1,0 +1,44 @@
+.contact-content {
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    /* height: 400px; */
+    position: relative;
+    margin-top: 30px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background: url(https://giasuviet.edu.vn/how-to-create-a-good-blog/imager_1180.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: inherit;
+    opacity: 0.30;
+    z-index: -1;
+}
+
+.contact-content h2 {
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.bttn {
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bttn:hover {
+    background-color: rgb(228, 228, 228);
+}
